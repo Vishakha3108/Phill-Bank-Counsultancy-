@@ -1,0 +1,365 @@
+:root {
+    --color-primary: #50e4c1;
+    --color-primary-dark: #38a088;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+}
+
+html, body {
+    font-family: "";
+    font-weight: 300;
+}
+.backimg {
+    background-image: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.66)), url(pexels-cottonbro-studio-4101143.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+}
+.container {
+    max-width: 130rem;
+    margin: 0 auto;
+
+}
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5.6rem 0px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.5rem 6rem;
+}
+.logo {
+    margin-bottom: 5rem;
+}
+.logo_img {
+    height: 12rem;
+    width: auto;
+}
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_text_heading {
+    font-size: 6.8rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 7.5rem;
+}
+.hero_text_pera {
+    font-size: 3rem;
+    color: #fff;
+}
+.btn {
+    background-color: var(--color-primary);
+    border: none;
+    padding: 2.5rem 6rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-top: 6rem;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* logo section */
+
+.featured-in {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-img-box {
+    padding: 2.4rem 0px;
+}
+.featured-img-box img:not(:last-child) {
+    margin-right: 3.6rem;
+}
+
+/* services section  */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    background-color: #d4d3d388;
+}
+.services-container {
+    padding: 6rem 0px;
+}
+.services-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pad: 2.4rem 0px;
+    margin-bottom: 4rem;
+}
+
+.services-heading {
+    font-size: 6rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 1.8rem;
+}
+.services-pera {
+    font-size: 2.4rem;
+    font-weight: 200;
+    color: #444;
+    margin-bottom: 3rem;
+}
+.grid-col_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.services_grid_items {
+    background-color: #fff;
+    padding: 2.5rem 5rem;
+    box-shadow: 0 4px 8px rgba(71,71,71,0.2);
+    text-align: center;
+}
+.services_icon_box {
+    margin-bottom: 2.4rem;
+}
+.services_icon_box i {
+    font-size: 5.6rem;
+    color: var(--color-primary);
+}
+.services_grid_h3 {
+    margin-bottom: 5rem;
+}
+
+.services_grid_h3 h3{
+    font-size: 3.6rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+.services-pera {
+    font-size: 1.6rem;
+    columns: #444;
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
+.services-pera2 a{
+    color: #777;
+    font-size: 1.9rem;
+    transition: all 0.3s;
+    letter-spacing: 0.5px;
+}
+.services-pera2 a:hover {
+    text-decoration: none;
+}
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+
+
+/* Team section  */
+.team {
+    margin-top: 10rem;
+    padding-bottom: 6rem;
+
+}
+.team-text-box {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 4rem;
+
+}
+.team-text-heading {
+    font-size: 6rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.team-text-pera {
+    font-size: 1.8rem;
+    padding-right: 1.6rem;
+    color: #444;
+}
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.team-members {
+    background-color: #1111;
+    text-align: center;
+    padding: 2.5rem 5rem;
+    /* color: #fff; */
+    box-shadow: 0 4px 5px rgba(68,68,68,0.2);
+}
+.member-icon-box {
+    margin-bottom: 2.4rem;
+
+}
+.member-icon {
+    height: 28rem;
+    width: auto;
+}
+.member-name {
+    font-size: 2.8rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.member-post {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.6;
+    padding: 0ps 1.6rem;
+    color: #444;
+}
+.member-info {
+    font-size: 1.8rem;
+    color: #444;
+    font-weight: 300;
+    line-height: 1.6;
+    padding: 0 1.6rem;
+}
+
+/* clinets section  */
+.clients {
+     background-color: #000;
+
+}
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.companies img{
+    height: 3rem;
+}
+.clinet-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.8rem;
+    margin-bottom: 7.4rem;
+}
+.client-h3 {
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.underline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7.6rem;
+}
+.underline hr {
+    height: 0;
+    width: 10%;
+    border: none;
+    border-bottom-width: 3px;
+    border-bottom-color: var(--color-primary);
+    border-bottom-style: solid;
+}
+.client-testing-box {
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6.4rem;
+    padding-bottom: 9.6rem;
+}
+.testimonial1 {
+    display: flex;
+    gap: 4.4rem;
+    justify-content: center;
+}
+.testimonial-text-box {
+    color: #fff;
+
+}
+.clint-img-box {
+    display: flex;
+
+}
+.client-img{
+    /* align-self: flex-start; */
+    height: 9.6rem;
+    border-radius: 50%;
+}
+.textimonial-text-primary {
+    font-size: 2.4rem;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.testimonial-text-second {
+    font-size: 1.8rem;
+    margin-top: 1.8rem;
+    letter-spacing: 0.5px;
+}
+
+/* footer section - the end*/
+
+.footer-background {
+    background-color: #000;
+    color: #fff;
+    padding: 5.6rem 0;
+    margin: 0 auto;
+}
+.footer-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7.6ram;
+}
+.footer-text-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.6rem;
+    font-size: 1.8rem;
+}
+.copyright-text-2 a {
+    color: #fff;
+    transition: all 3s;
+}
+.copyright-text-2 a:hover {
+    text-decoration: none;
+}
+
+.footer-logo-box {
+    margin-top: 50px;
+}
+.footer-logo-box img {
+    height: 12rem;
+}
+
+
